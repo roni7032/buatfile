@@ -1,0 +1,10 @@
+SELECT column_name from information_schema.columns WHERE TABLE_SCHEMA='bmh_1' and TABLE_NAME='petugas'
+
+id
+kode
+nama
+keterangan
+id_jabatan
+hp
+alamat
+kota

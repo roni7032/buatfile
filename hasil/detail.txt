@@ -1,0 +1,43 @@
+<form class="form-horizontal">
+<div class="form-group">
+    <label class="control-label col-sm-2" for="Title">Title</label>
+<div class="col-sm-10">
+      <p class="form-control-static"><?php echo $dtread->title; ?></p>
+	   </div>
+  </div>
+
+<div class="form-group">
+    <label class="control-label col-sm-2" for="Image">Image</label>
+<div class="col-sm-10">
+      <p class="form-control-static"><?php echo $dtread->img; ?></p>
+	   </div>
+  </div>
+
+<div class="form-group">
+    <label class="control-label col-sm-2" for="Airlines">Airlines</label>
+<div class="col-sm-10">
+      <p class="form-control-static"><?php echo $dtread->airlines_id; ?></p>
+	   </div>
+  </div>
+
+<div class="form-group">
+    <label class="control-label col-sm-2" for="Duration">Duration</label>
+<div class="col-sm-10">
+      <p class="form-control-static"><?php echo $dtread->duration; ?></p>
+	   </div>
+  </div>
+
+<div class="form-group">
+    <label class="control-label col-sm-2" for="Status">Status</label>
+<div class="col-sm-10">
+      <p class="form-control-static"><?php echo $dtread->status; ?></p>
+	   </div>
+  </div>
+
+<div class="form-group">
+    <label class="control-label col-sm-2" for="Departure Date">Departure Date</label>
+<div class="col-sm-10">
+      <p class="form-control-static"><?php echo $dtread->departure_date; ?></p>
+	   </div>
+  </div>
+</form>

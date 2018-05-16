@@ -1,0 +1,13 @@
+$tmp_table=array(
+                        'table_open' => '<table width="100%" class="table table-bordered" id="tbl-anak">',
+                        'thead_open' => '<thead>',
+                        'thead_close' => '</thead>',
+                        'table_close' => '</table>'
+                );$this->table->set_template($tmp_table);$this->table->set_heading('Tour','Day','Date','Origin Country','Dest Country','Origin City','Dest City','Describtion');
+					foreach ($data as $key => $value) {
+						$link = anchor('anak/read/'.$value->id,'<i class="fa fa-eye"></i>','class="btn btn-primary"');
+                        $link .= anchor('anak/edit/'.$value->id,' <i class="fa fa-pencil"></i> ','class="btn btn-warning"');
+                        $link .= anchor('kamar/delete/'.$value->id,'<i class="fa fa-trash">','class="btn btn-danger" onclick="return confirm(\'Anda yakin..?\')"');
+						$this->table->add_row($value->tour_id,$value->at_day,$value->at_day_date,$value->origin_country,$value->dest_country,$value->origin_city,$value->dest_city,$value->describtion,'<div class="btn-group">'.$link.'</div>');
+					}
+				echo $this->table->generate();

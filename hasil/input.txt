@@ -1,0 +1,33 @@
+
+<div class="form-group">
+	<label class="label-control" for="tour_id">Tour</label>
+	<input type="text" name="tour_id" class="form-control" placeholder="Tour" />
+</div>
+<div class="form-group">
+	<label class="label-control" for="at_day">Day</label>
+	<input type="text" name="at_day" class="form-control" placeholder="Day" />
+</div>
+<div class="form-group">
+	<label class="label-control" for="at_day_date">Date</label>
+	<input type="text" name="at_day_date" class="form-control" placeholder="Date" />
+</div>
+<div class="form-group">
+	<label class="label-control" for="origin_country">Origin Country</label>
+	<input type="text" name="origin_country" class="form-control" placeholder="Origin Country" />
+</div>
+<div class="form-group">
+	<label class="label-control" for="dest_country">Dest Country</label>
+	<input type="text" name="dest_country" class="form-control" placeholder="Dest Country" />
+</div>
+<div class="form-group">
+	<label class="label-control" for="origin_city">Origin City</label>
+	<input type="text" name="origin_city" class="form-control" placeholder="Origin City" />
+</div>
+<div class="form-group">
+	<label class="label-control" for="dest_city">Dest City</label>
+	<input type="text" name="dest_city" class="form-control" placeholder="Dest City" />
+</div>
+<div class="form-group">
+	<label class="label-control" for="describtion">Describtion</label>
+	<input type="text" name="describtion" class="form-control" placeholder="Describtion" />
+</div>

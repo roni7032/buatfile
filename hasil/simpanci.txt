@@ -1,0 +1,11 @@
+array(
+	'title' => $this->input->post('title'),
+	'countries_id' => $this->input->post('countries_id'),
+	'img' => $this->input->post('img'),
+	'duration' => $this->input->post('duration'),
+	'ket' => $this->input->post('ket'),
+	'departure_date' => $this->input->post('departure_date'),
+	'arrival_date' => $this->input->post('arrival_date'),
+	'seo' => $this->input->post('seo'),
+	'price' => $this->input->post('price'),
+);
